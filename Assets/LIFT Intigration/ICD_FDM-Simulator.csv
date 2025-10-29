@@ -1,0 +1,5 @@
+Output Parameter for  Radar Model,,,,,,,,
+,Parameter Names,Units,Description/ Remarks,Type,Data_Type_Size,Start_Byte,Total_Bytes,# Only for testing using Joystick. Not used with actual stick. Zeros to be sent to maintain ICD
+0,delta-sec,sec,Refresh rate,float,4,0,3,
+1,pressure-alt-ft,feet,Pressure Altitude,float,4,4,7,
+2,Radio_altitude-alt-ft,feet,Radio Altitude,float,4,8,11,
