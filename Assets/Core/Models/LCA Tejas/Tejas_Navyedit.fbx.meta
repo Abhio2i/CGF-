@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 32fe4e682573b034c8aa74e5870a85d3
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3002
+    second: {fileID: 2100000, guid: 1c984592950459d46946a2f0bc7b8d22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Airforce logo round
+    second: {fileID: 2100000, guid: d9fc6d9976cdccf4d8d7506e3d607d73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body Fuselage
+    second: {fileID: 2100000, guid: 0983aabd731438f4da7878ae2cb314a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body Fuselage dark
+    second: {fileID: 2100000, guid: 5c6884ae30adf4c4bb3be080b2400b92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body Fuselage light
+    second: {fileID: 2100000, guid: f888fe700736de44aa647823592d7e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button White
+    second: {fileID: 2100000, guid: e81fd8fd566a3ab4b972f239cdb27804, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buttons 1
+    second: {fileID: 2100000, guid: 63e41a454f519b44b9f885db5d4a865a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cable
+    second: {fileID: 2100000, guid: d981cd7149ab33141bf620c900374f06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canopy handle
+    second: {fileID: 2100000, guid: 392eafafbd28426409944a16b73775c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cockpit cabin
+    second: {fileID: 2100000, guid: 638d6120d87e20a409fec2df52378e7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DANGER do not pull handle
+    second: {fileID: 2100000, guid: 316de630214e4944e9210997a3435f7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 1
+    second: {fileID: 2100000, guid: 934fb9759613d73478d69547bd54e077, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 10
+    second: {fileID: 2100000, guid: 3e3cee26809178f4abcb4c6965ed56b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 11
+    second: {fileID: 2100000, guid: 2062d66e4ded7804c9d936c876142161, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 12
+    second: {fileID: 2100000, guid: e4f9c46219f98c041b2a9a4ed6b6ad60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 13
+    second: {fileID: 2100000, guid: 028627d6d24b7fc4593e08316d86759b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 14
+    second: {fileID: 2100000, guid: 2804b1870652c7c489dd208c90f2acb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 15
+    second: {fileID: 2100000, guid: 727add22a9715564a96072cf05c85ce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 2
+    second: {fileID: 2100000, guid: 5d2e81d8bdcd0664b931c06f479f28f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 3
+    second: {fileID: 2100000, guid: e783fb6a1aae7f24c98f50c8ece68c5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 4
+    second: {fileID: 2100000, guid: 461bc5988507dfb4bbab21baa22efeb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 6
+    second: {fileID: 2100000, guid: ffebac44efb064b4bbbdf12051c6fa36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 7
+    second: {fileID: 2100000, guid: 88da0aba374370a42902cffae3956d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 8
+    second: {fileID: 2100000, guid: f28c6d368b6c9b347a5443cf12c37783, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display 9
+    second: {fileID: 2100000, guid: 62675d79ec0889348bc05ffdadf5ae26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display Alt-tape
+    second: {fileID: 2100000, guid: ce9b4a756e90a2745af699cc6d16f026, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eject handle
+    second: {fileID: 2100000, guid: bcd9d18a4e2c65045bf06030b5b95e29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emgergency canopy handle
+    second: {fileID: 2100000, guid: 613c885b836f8cf4583c114cb29d3cd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emisson Red
+    second: {fileID: 2100000, guid: e1a3f6ffc8307344d896548ee1f3bc8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emisson Yellow
+    second: {fileID: 2100000, guid: ebef1b117eeda6847bbec9168e614076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emisson white
+    second: {fileID: 2100000, guid: 91f25cebafd46de429dadd518960c911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engine plates
+    second: {fileID: 2100000, guid: 1a5a49ce05ab3b1428407d7c0e114b5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Free pilot
+    second: {fileID: 2100000, guid: 69bc6b52b777cfe4d90b1af5312fcd6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass 2
+    second: {fileID: 2100000, guid: edd517e17e695dd418649606f2f6726c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HUD display
+    second: {fileID: 2100000, guid: ee15d56d8b69c374ea452cc42be91e60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JetDangerIntake1
+    second: {fileID: 2100000, guid: bf46c42cb8d14da47b21dddbb6b14409, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 3c6b28f6466c2b64494b821e3db2f2c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metalic Grey
+    second: {fileID: 2100000, guid: f1cb40b2bded6ca4bb8bcf3b72d9d798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror
+    second: {fileID: 2100000, guid: 30efd52fff039ca4780a0c30599d73fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Missile Red
+    second: {fileID: 2100000, guid: 3baa3e19b515cc242ba8105565c6a7ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Missile white
+    second: {fileID: 2100000, guid: 02b1edc039500fe4883decf643fe9e3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Navy Emblem
+    second: {fileID: 2100000, guid: a31ee8a021f32f349a99e12c95744763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Navy English
+    second: {fileID: 2100000, guid: 933f3affb0a370149874f00ab6522b97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Navy Hindi
+    second: {fileID: 2100000, guid: 3bebfa8fc617c8740a15c9c1b9d55d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nose
+    second: {fileID: 2100000, guid: bb0c2a4a3b7ba59458fe7db8bf19353f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oxygen
+    second: {fileID: 2100000, guid: 1a30bc4e6cab09d4fba0a4548bfa715a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rescue
+    second: {fileID: 2100000, guid: a0ccbe3c86bce7042b4e0d21686e5009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rescue 2
+    second: {fileID: 2100000, guid: f99b2b7dd78e71446be693cb71d947e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat Belt
+    second: {fileID: 2100000, guid: fff7d7652d7ccc745a0a0a5738b9be1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seat Hard black
+    second: {fileID: 2100000, guid: 1759fdafedd988842b59696286038302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel Pipe
+    second: {fileID: 2100000, guid: 36d38b12e2a7e2843ba2556a692af716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tejas written
+    second: {fileID: 2100000, guid: d7f07adfd442ac04aba1d56b51aefe74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire
+    second: {fileID: 2100000, guid: 09252c1b4592bb64fa2f218befae0508, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tricolor
+    second: {fileID: 2100000, guid: 0abbd17fa539e5c499734df99e6426d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windshield glass
+    second: {fileID: 2100000, guid: e4b1f40954593de49b0b7eee7393a16b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kisspng-paper-ejection-seat-aircraft-sticker-seat-600-vector-5b
+    second: {fileID: 2100000, guid: 47caa16224397824e8cc21773f77e335, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.002
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
