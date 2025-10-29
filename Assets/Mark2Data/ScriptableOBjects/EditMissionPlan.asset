@@ -1,0 +1,353 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b539a3d1e063e48ab659ac9f965b0c, type: 3}
+  m_Name: EditMissionPlan
+  m_EditorClassIdentifier: 
+  missionInfo:
+    scenario: 0
+    Name: vdsvsds
+  ally_spawnPlanes:
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 1000
+    Bearing: 0
+    Heading: 0
+    startMode: 1
+    speed: 400
+    Chaffs: 100
+    Flares: 100
+    Bullets: 1000
+    Hardpoints:
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    missileInfo:
+    - Name: Meteor
+      RangeType: BVR
+      Type: ATA
+      Speed: 5186
+      Range: 200
+      TurnRadius: 1000
+    - Name: Astra
+      RangeType: BVR
+      Type: ATA
+      Speed: 0
+      Range: 110
+      TurnRadius: 1000
+    - Name: MICA
+      RangeType: BVR
+      Type: ATA
+      Speed: 0
+      Range: 60
+      TurnRadius: 1000
+    - Name: ASRAAM
+      RangeType: CCM
+      Type: ATA
+      Speed: 544
+      Range: 25
+      TurnRadius: 1000
+    - Name: R_73
+      RangeType: CCM
+      Type: ATA
+      Speed: 454
+      Range: 22
+      TurnRadius: 1000
+    - Name: Brahmos
+      RangeType: BVR
+      Type: ATS
+      Speed: 454
+      Range: 450
+      TurnRadius: 1000
+    - Name: Helina
+      RangeType: CCM
+      Type: ATS
+      Speed: 544
+      Range: 8
+      TurnRadius: 1000
+    Power: 2000
+    Gain: 2
+    Frequency: 8
+    MinimalNoise: 0.1
+    RCS: 2
+    EWPower: 763
+    EWGain: 2
+    RecieveGain: 1
+    Threshold: -118.9
+    AutoChaffs: 1
+    AutoFlares: 1
+    DIRCM: 1
+    Jammer: 0
+    name: Lca Tejas
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  neutral_spawnPlanes:
+  - Latitude: 14.7793
+    Longitude: 79.6871
+    Altitude: 0
+    Bearing: 90
+    Heading: 0
+    startMode: 0
+    speed: 800
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    missileInfo: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: Neutral
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  - Latitude: 14.9793
+    Longitude: 79.6871
+    Altitude: 0
+    Bearing: 90
+    Heading: 0
+    startMode: 0
+    speed: 800
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    missileInfo: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: Neutral
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  adversary_spawnPlanes:
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 1000
+    Bearing: 0
+    Heading: 0
+    startMode: 0
+    speed: 400
+    Chaffs: 100
+    Flares: 100
+    Bullets: 1000
+    Hardpoints:
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    - Empty
+    missileInfo: []
+    Power: 2000
+    Gain: 2
+    Frequency: 8
+    MinimalNoise: 0.1
+    RCS: 2
+    EWPower: 763
+    EWGain: 2
+    RecieveGain: 1
+    Threshold: -118.9
+    AutoChaffs: 1
+    AutoFlares: 1
+    DIRCM: 1
+    Jammer: 0
+    name: F 18
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  sams_spawnPlanes: []
+  Warship_spawnPlanes: []
+  waypoints:
+  - Latitude: -64.24377
+    Longitude: -148.5929
+    position: {x: 13849.586, y: 5000.001, z: -17413.973}
+  - Latitude: 46
+    Longitude: 78
+    position: {x: 0, y: 0, z: 0}
+  - Latitude: 2
+    Longitude: 86
+    position: {x: 0, y: 0, z: 0}
+  WeatherData:
+    Time: 12
+    Fog: 0
+    weather: 0

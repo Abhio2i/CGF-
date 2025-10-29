@@ -1,0 +1,872 @@
+{
+    "name": "SilantroControl",
+    "maps": [
+        {
+            "name": "General",
+            "id": "0703c0f4-c5c9-418e-83d9-391c6d629d8a",
+            "actions": [
+                {
+                    "name": "StartEngineGlobal",
+                    "type": "Button",
+                    "id": "09cf316f-b3fd-4b70-be31-1d681b45c54a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThrottleThrust",
+                    "type": "Value",
+                    "id": "0d97ce13-8269-4352-a921-ddb45963a1cb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "StickInput",
+                    "type": "Value",
+                    "id": "c4eff7fe-a07f-43c1-a97b-b31f2d78ebc6",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "YawStick",
+                    "type": "Value",
+                    "id": "89e54b7a-a737-46ae-9e81-80cecef97063",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "StopEngineGlobal",
+                    "type": "Button",
+                    "id": "4a7c449f-bf32-433f-b86e-5df09f6ffb22",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ParkingBrake",
+                    "type": "Button",
+                    "id": "fc9da93c-2931-450c-92e5-838a1b832821",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PitchLever",
+                    "type": "Button",
+                    "id": "a84f6382-348d-494b-b84c-f75b40b64760",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RollLever",
+                    "type": "Button",
+                    "id": "b81265a9-2f39-4fcd-8d5b-7efe68e4a7b2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FlapDownSwitch",
+                    "type": "Button",
+                    "id": "d5fd2104-00c4-463d-a3cf-479a8466d076",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FlapUpSwitch",
+                    "type": "Button",
+                    "id": "097602bd-4b6a-4280-a23c-5b973e3ebe1d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThrottleLeverUp",
+                    "type": "Button",
+                    "id": "8012c78d-d45c-405a-bd95-88825b4f8712",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThrottleLeverDown",
+                    "type": "Button",
+                    "id": "2dd85d17-9874-4255-b61d-bce7ec0e4674",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "YawLever",
+                    "type": "Button",
+                    "id": "a5760e8c-012d-41d5-83d3-4428462edbc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StickYaw",
+                    "type": "Value",
+                    "id": "583b614d-c1c0-4b7e-964d-0d96c8aeb626",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ApplyBreak",
+                    "type": "Button",
+                    "id": "4cd8712c-26fb-4b5d-b54b-b7a3bae76402",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "c284076d-b51e-4b0d-8237-4bab40e381b0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MainMenu",
+                    "type": "Button",
+                    "id": "88e9d522-9ffe-477b-b2a8-6b374371f0ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AfterburnerSwitch",
+                    "type": "Button",
+                    "id": "5140daf3-05bb-4ed8-b019-a8a526d79518",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5288ffd5-c656-4162-872b-b1627d58add0",
+                    "path": "<Keyboard>/f3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartEngineGlobal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "213aeba3-6f8f-43c5-9751-46c5956f0ead",
+                    "path": "<HID::Thrustmaster T.16000M>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartEngineGlobal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9151be65-d759-435e-abfa-b5261f9cd4e1",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button32",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartEngineGlobal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85cae073-98ff-4eb5-bc85-4dc549d81ed9",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartEngineGlobal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0ebd308-0360-4acc-b279-7c6a1cd18aef",
+                    "path": "<Keyboard>/f4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopEngineGlobal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "673f2906-fc48-4a96-a9e8-9a89b6116d95",
+                    "path": "<HID::Thrustmaster T.16000M>/button10",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopEngineGlobal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c972e15-1948-47ed-9be1-929ea3fb5f63",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button19",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopEngineGlobal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6fed8d56-d95d-499a-b1d7-fd6c3458dba7",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ParkingBrake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "09eff09a-0ae3-46c3-8f4d-2e6ddddceed9",
+                    "path": "<HID::Thrustmaster T.16000M>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ParkingBrake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dab6e759-75c7-4721-a112-b0542dd6ec8e",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button21",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ParkingBrake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e95afc6-6a31-4237-9f97-bd5172ccdb5b",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlapDownSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49931995-5123-4b6d-b14a-20bc9f55604e",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button23",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlapDownSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fd6006ba-fbfe-499b-8c8b-11aa7ce21122",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlapUpSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13feb9b3-6266-4a62-8426-e6daa6884f84",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button22",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlapUpSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "805a1269-0d7b-4959-b42b-221c571f1abf",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrottleLeverUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c800576-8ef4-4ff4-ada0-a921f3804310",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrottleLeverUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67fe02bc-bbfc-4f0b-bf58-bd504985330a",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrottleLeverDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "627dfc09-e991-4504-ba34-0033412eda59",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrottleLeverDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "56b221d3-dc02-4ba2-8835-dbb0cc771470",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YawLever",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3b27a265-75f9-4ece-a436-af649bcd9626",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YawLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "f5ab1228-0af3-4397-b965-c04bbfd9c535",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YawLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "fc9424eb-4199-4e7e-815a-6860fde69001",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ApplyBreak",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "33c2c8c1-e588-4a90-b96e-e4fea4d0dfa0",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PitchLever",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "2684a52f-5db0-4393-b439-a54e3920f6c3",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PitchLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "7460e82d-5f68-4c8b-a811-f99115698334",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PitchLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "674e794a-e891-4645-988b-b85ba4f3a7fa",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PitchLever",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "f1af6d5a-8f36-4cb1-8e62-3b6a83ca24bd",
+                    "path": "<HID::Thrustmaster T.16000M>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PitchLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "b3641c41-a3dd-428b-9423-c5abbe4366b3",
+                    "path": "<HID::Thrustmaster T.16000M>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PitchLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "fe07b71f-a9e2-4d49-96c6-64e8698c4e26",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RollLever",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a1f892d5-06a2-4498-b421-01fc67356f3f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RollLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "45ae1d3e-ddcf-46b5-a3fa-924c6ef31537",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RollLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "7cfd8a1a-f138-495f-a1f6-083e0cf71b2b",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RollLever",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a8f0f9fe-4804-4d53-9405-ff245e4d54c6",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RollLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e872550e-70ef-42a0-b49f-0553c9877696",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RollLever",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "828a63bd-982f-4990-8153-feb7fcb5d14f",
+                    "path": "<HID::Thrustmaster T.16000M>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StickInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b42acd03-cb43-46a3-88cd-63c8f59281ae",
+                    "path": "<HID::Thrustmaster TWCS Throttle>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrottleThrust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9f61c32-292d-489f-a4e5-aeb3e369f666",
+                    "path": "<HID::Thrustmaster T.16000M>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YawStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "db2a78fe-3e6e-4521-a114-08294f721c3f",
+                    "path": "<HID::Thrustmaster T.16000M>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StickYaw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1687ff75-391d-4e4f-9fb1-3449bc377f7d",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c669273-c153-4615-b09b-a012927c8442",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7285d0d1-915b-44fb-8cc7-79e6dde5eece",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "253e7aba-f1c5-48c9-8278-076e56c8c8f0",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MainMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1255db4a-3d27-4806-b91f-8489f3dfd175",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MainMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95e54f39-6fed-432a-87d1-033e5a800b48",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MainMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c09ddb4-0a64-4658-b4aa-1f1e27b66fa8",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AfterburnerSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25f16146-e357-47cc-b39f-24ec61fdb2e9",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AfterburnerSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2ba67b18-5c0f-4eec-8e80-34fc8e54e764",
+                    "path": "<HID::Thrustmaster T.16000M>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AfterburnerSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "50c114ba-b209-4370-b44c-c6d8eb5a3635",
+                    "path": "<Keyboard>/0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AfterburnerSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Record",
+            "id": "68acd2f6-7863-4993-ac62-1e9040c0dc4b",
+            "actions": [
+                {
+                    "name": "stop",
+                    "type": "Button",
+                    "id": "b8b9b764-bed6-48c8-bcb7-485a5bd4f92a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9a15c138-040b-49b5-8ceb-991ba017897b",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "stop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Gear",
+            "id": "63e55612-9077-44d0-9ad5-b69bcaadbf27",
+            "actions": [
+                {
+                    "name": "On/Off",
+                    "type": "Button",
+                    "id": "15b0c33e-09f9-4775-b87c-3ec9a4ae1063",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4a7f6149-478a-4fac-897f-f92914a6443f",
+                    "path": "<Keyboard>/7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "On/Off",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc3f03af-7801-4736-ab5e-99a3ec80ed95",
+                    "path": "<HID::Thrustmaster T.16000M>/button8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "On/Off",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfaef4c3-bb9d-4cbc-be68-43badc96f8e3",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button31",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "On/Off",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c2b6db0-ce07-435c-b4b8-3d0763125f4f",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "On/Off",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fec241d0-bc54-4e55-b92e-64283d2369f3",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "On/Off",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Joystick",
+            "id": "59268f57-0c0d-4fc2-b4e2-c6ed4bcc913c",
+            "actions": [
+                {
+                    "name": "InputLR",
+                    "type": "Value",
+                    "id": "b69162c8-270b-414f-95ca-44cd3a6d68a5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "InputUD",
+                    "type": "Value",
+                    "id": "ac7d19b5-12fe-4be3-8e92-de60cc121f98",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Thrust",
+                    "type": "Value",
+                    "id": "a2131e64-1abb-4025-8bd8-339f7ce56728",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "11bbc740-4288-4ab9-9629-20bb491cb29d",
+                    "path": "<Joystick>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InputLR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "621e9e79-6477-46c1-8a0b-127bf67c80dc",
+                    "path": "<Joystick>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InputUD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9bb23d02-6069-4146-b4d3-6da15de2990b",
+                    "path": "<HID::Thrustmaster TWCS Throttle>/slider",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thrust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

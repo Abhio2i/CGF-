@@ -1,0 +1,170 @@
+{
+    "name": "InputController",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "7c680936-1e08-46ec-a712-338ce16309ce",
+            "actions": [
+                {
+                    "name": "ZoomIn/Out",
+                    "type": "PassThrough",
+                    "id": "3ffab75e-ed5d-4ca7-86b6-6d12f3effe33",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveRight",
+                    "type": "Button",
+                    "id": "e5de6550-2f11-4597-8c1a-4ba794ad6ae8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveLeft",
+                    "type": "Button",
+                    "id": "5ffb574e-fb6e-4b21-9980-b9e482f0ba86",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveUp",
+                    "type": "Button",
+                    "id": "25944840-5f61-495a-8942-9b620ce244f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveDown",
+                    "type": "Button",
+                    "id": "6b4602be-ecdf-4c14-9175-be383d909034",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Scroll",
+                    "id": "6acb2a0b-d0df-4a8f-b9c5-2676a065a5e6",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZoomIn/Out",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b50ce541-6fcb-4187-9d95-112833ed4d6d",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "Normalize(min=-0.3,max=0.3)",
+                    "groups": "Keyboard and Mouse",
+                    "action": "ZoomIn/Out",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aca93273-bebb-45c9-a0a7-591bc76d53f5",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "MoveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f72c6d9e-f838-4375-b961-662ed1afb661",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "MoveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c80b460-d540-475b-8c86-5972b8b413f4",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "MoveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6cf0cc69-076a-417d-9fc9-4135951f3c81",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "MoveDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CommonActions",
+            "id": "58116910-9c08-4ed7-a48e-03f9056f24df",
+            "actions": [
+                {
+                    "name": "MouseClick",
+                    "type": "Button",
+                    "id": "c5050658-9ecc-4360-bbf2-aa4041de1e98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "64bfa4e8-e73f-43b9-bdef-cc9f2ec4d358",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard and Mouse",
+            "bindingGroup": "Keyboard and Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

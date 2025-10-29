@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723d3462d8b24f4478f454cf85273cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: 54
+  type: 
+  model: 
+  country: 
+  pilot: 
+  skill: 
+  count: 
+  unit: 0
+  callSign1: 0
+  callSign2: 0
+  formationType: 0
+  spawnPositionsAtY: []
+  spawnPositionsAtZ: []
+  spawnPositionsAtX: []
+  radio: 0
+  hiddenOnMap: 0
+  hiddenOnPlanner: 0
+  hiddenOnRadar: 0
+  playerChase: 0
+  callSign_code: 
+  track: {fileID: 0}
+  wayPointsPos:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: -15808.8545, y: 1261.5967, z: -18152.262}
+  - {x: 16633.92, y: 620.6019, z: 24146.871}
+  - {x: -5163.875, y: 906.77014, z: -13366.714}
+  - {x: 1684.6133, y: 2689.6287, z: -12657.495}
+  - {x: 27355.688, y: 2961.071, z: -4003.1953}
+  - {x: 6287.2344, y: 1565.3024, z: -22179.812}
+  - {x: 26664.438, y: 2533.5598, z: 21241.436}
+  - {x: -32947.508, y: 2938.5442, z: -28154.688}
+  - {x: 8747.516, y: 2460.48, z: 2170.9766}
+  - {x: 1688.7695, y: 2076.222, z: -7467.6367}
+  - {x: -31408.445, y: 2425.9954, z: -17362.312}
+  - {x: 12762.479, y: 2715.3125, z: 26128.242}
+  - {x: -13639.988, y: 1337.2606, z: 9937.138}
+  - {x: 37303.32, y: 1401.0609, z: 28474.375}
+  - {x: 11013.401, y: 1099.6572, z: 14782.417}
+  - {x: -7557.75, y: 1963.9761, z: -12207.855}
+  - {x: -26098.812, y: 2656.0503, z: -29729.102}
+  - {x: 1768.0898, y: 2706.169, z: -39604.492}
+  - {x: -35863.047, y: 2113.1787, z: 26655.531}
+  - {x: -26507.398, y: 2367.2417, z: 24694.098}

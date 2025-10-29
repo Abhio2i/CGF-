@@ -1,0 +1,576 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206bfd00cfc40e848ad6b9f4d80c8635, type: 3}
+  m_Name: SpawnMaster
+  m_EditorClassIdentifier: 
+  ally_spawnPlanes:
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: 
+    type: 
+    model: LCA Tejas
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: 
+    type: 
+    model: LCA Tejas
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: 
+    type: 
+    model: LCA Tejas
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: 
+    type: 
+    model: LCA Tejas
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  neutral_spawnPlanes:
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: 
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  adversary_spawnPlanes:
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: 
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: 
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: 
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 
+  sams_spawnPlanes:
+  - Latitude: 0
+    Longitude: 0
+    Altitude: 0
+    Bearing: 0
+    startMode: 0
+    speed: 0
+    Chaffs: 0
+    Flares: 0
+    Bullets: 0
+    Hardpoints: []
+    Power: 0
+    Gain: 0
+    Frequency: 0
+    MinimalNoise: 0
+    RCS: 0
+    EWPower: 0
+    EWGain: 0
+    RecieveGain: 0
+    Threshold: 0
+    AutoChaffs: 0
+    AutoFlares: 0
+    DIRCM: 0
+    Jammer: 0
+    name: oklk
+    type: 
+    model: 
+    country: 
+    pilot: 
+    skill: 
+    count: 
+    callSignCode: 
+    formationType: 0
+    unit: 0
+    callSign1: 0
+    callSign2: 0
+    spawnPosition: {x: 0, y: 0, z: 0}
+    radio: 0
+    hiddenOnRadar: 0
+    hiddenOnMap: 0
+    hiddenOnPlanner: 0
+    playerChase: 0
+    flares: 0
+    chaffs: 0
+    jammer: 0
+    gun: 0
+    flareCount: 0
+    chaffCount: 0
+    flareBurst: 0
+    chaffBurst: 0
+    jammerMode: 0
+    gunAmmo: 0
+    s1: 
+    s2: 
+    s3: 
+    s4: 
+    s5L: 
+    s5: 
+    s5R: 
+    s6: 
+    s7: 
+    s8: 
+    s9: 

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743aadd782a56454fb1914e40569429d, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: 
+  _name: 
+  type: Adversary
+  model: Hawkeye
+  country: 
+  pilot: Pilot name
+  skill: 
+  count: 10
+  unit: 0
+  callSign1: 0
+  callSign2: 0
+  formationType: 0
+  spawnPositionsAtY:
+  - 300
+  - 300
+  - 300
+  - 300
+  - 300
+  - 300
+  - 300
+  - 300
+  - 300
+  - 300
+  spawnPositionsAtZ:
+  - -366
+  - -4184
+  - -224
+  - -2061
+  - -1704
+  - 960
+  - 4714
+  - 3803
+  - -965
+  - -3020
+  spawnPositionsAtX:
+  - -286
+  - -2801
+  - 3662
+  - 3978
+  - -574
+  - 1768
+  - -1729
+  - -4692
+  - -2641
+  - -4955
+  radio: 0
+  hiddenOnMap: 0
+  hiddenOnPlanner: 0
+  hiddenOnRadar: 0
+  playerChase: 0
+  callSign_code: iff code
+  flares: 0
+  chaffs: 0
+  jammer: 0
+  gun: 0
+  flareCount: 0
+  chaffChount: 0
+  jammerMode: 0
+  gunAmmo: 0
+  s1: 
+  s2: 
+  s3: 
+  s4: 
+  s5l: 
+  s5: 
+  s5r: 
+  s6: 
+  s7: 
+  s8: 
+  s9: 

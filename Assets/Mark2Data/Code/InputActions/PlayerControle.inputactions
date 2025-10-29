@@ -1,0 +1,2377 @@
+{
+    "name": "PlayerControle",
+    "maps": [
+        {
+            "name": "PlaneMove",
+            "id": "a6d65ab5-973f-401f-807f-3781cc17b644",
+            "actions": [
+                {
+                    "name": "MoveR",
+                    "type": "Value",
+                    "id": "44470a36-b4fd-4659-9722-d50b46960cb8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MoveL",
+                    "type": "PassThrough",
+                    "id": "ff8a6128-9137-4905-bd68-afe8759ca534",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveU",
+                    "type": "PassThrough",
+                    "id": "ce527ba2-9f00-4558-a6fa-0e668828366e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveD",
+                    "type": "PassThrough",
+                    "id": "059ca62f-19fa-441c-98a2-34e72ebde21d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RL",
+                    "type": "Button",
+                    "id": "d9f4db14-023f-4723-ab9f-88cc827a242b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UD",
+                    "type": "Button",
+                    "id": "2d33a7d0-28a6-425c-9de3-91836e35bd85",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "YawL",
+                    "type": "Value",
+                    "id": "e057ca8f-fefc-40b2-8eab-fdf586ad9640",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "YawR",
+                    "type": "Value",
+                    "id": "3eef8a40-9837-4d66-a9e0-1cb66cda5da6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Airbrake",
+                    "type": "Button",
+                    "id": "f16e2964-b395-4313-a9d0-7a218111a0f1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0419012e-121a-4548-b9e2-f9a8ee6a35f7",
+                    "path": "<Joystick>/stick/right",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=1.401298E-45,max=1)",
+                    "groups": "",
+                    "action": "MoveR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b21e0dac-8b87-4570-8211-06204dcf3fab",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6c679c0-5130-4279-9e67-28c17bef1c0d",
+                    "path": "<Joystick>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fbc8579b-858c-4395-a84b-956bf753d841",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b8aabc6d-b810-40a6-b123-1d533b9aed1f",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveU",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4733190-2edb-47b3-a628-e816459ee278",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveU",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f3a9e004-5175-46af-baa7-e70249536102",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac8ff4a3-1ca7-4c00-9514-a82695bb4e3b",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "73a63812-b72d-4dff-a823-7d259f386b69",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RL",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "efa570d9-53d8-409a-ad69-49fcfd16f7f9",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RL",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "2a5ae96d-8c24-4c00-98ba-965cd4b25792",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RL",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "272890bf-1809-4103-bc4c-37949f6909e8",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UD",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "7e59d343-45b0-4f21-b86e-6d6dcde9cec5",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "9bc4b636-b6d5-445b-a004-00dee82ddb25",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "f53fc298-1f6e-4831-a201-dde2559aa981",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YawL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dbb76093-0da7-4209-9568-e14d5ccf31df",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YawR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85e0482c-d4cf-4d3f-b30c-1d1f80d6f4e7",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Airbrake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PlaneTidd",
+            "id": "a71c86b3-2ec6-47c9-8166-43906279997a",
+            "actions": [
+                {
+                    "name": "right",
+                    "type": "PassThrough",
+                    "id": "a8a788a8-917f-4790-b7d9-5225a26f6e55",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "left",
+                    "type": "PassThrough",
+                    "id": "e70f99f9-8285-4f35-a21b-be2373a31221",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "up",
+                    "type": "PassThrough",
+                    "id": "3b0eb124-9553-46cc-9904-ffd465bdef90",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "down",
+                    "type": "PassThrough",
+                    "id": "de212ae7-cf45-43e9-87d3-d27a5077b022",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "818de5c9-957c-46e9-ae24-c0c488fc27ee",
+                    "path": "<HID::5-Axis,12-Button with POV >/hat/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce0a1acb-8d97-4768-bcd3-7bf76c639764",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e8fa577-cc55-4de0-8e8d-20d60250e521",
+                    "path": "<HID::5-Axis,12-Button with POV >/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1066c286-7de4-467f-8952-c8f8bfb93913",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ed5b0c20-95f8-4822-9d5d-f5485e123003",
+                    "path": "<HID::5-Axis,12-Button with POV >/hat/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b3efc74-f6ca-421e-a788-aea57ac9417d",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10faaef2-9bdf-402b-86ec-056c63dbd017",
+                    "path": "<HID::5-Axis,12-Button with POV >/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "435eaef1-6bad-45bc-b2ca-fced31832d13",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "FireGun",
+            "id": "8619cbcd-e1ff-486a-91e4-fc5a690e18d1",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "PassThrough",
+                    "id": "5e8b036f-7220-4ec4-8276-4b5b5669b0b6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire2",
+                    "type": "Button",
+                    "id": "1766f3f1-49a2-4112-91f5-5f812c2a28ce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LockTarget",
+                    "type": "Button",
+                    "id": "4dfd4cd0-b96e-41da-8530-327e13a6477b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BreakLockTarget",
+                    "type": "Button",
+                    "id": "fe6d5932-4c7d-44b6-8049-720bd43bd8bb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "142ec22e-4596-46f3-9b39-aa7d658fcd0b",
+                    "path": "<HID::Thrustmaster, Inc. USB Game Controllers>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47a57b0b-48bd-4032-b2f4-90b7c3884d60",
+                    "path": "<Keyboard>/g",
+                    "interactions": "Press(pressPoint=0.1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9fbe0df-d25c-4184-b9b0-8a588df3b8e7",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "45cff782-9f08-4816-8bde-a03347af704d",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "661f56fd-0a53-452a-8a5b-c93cb2c1293f",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df30d740-18b9-40a3-8d65-074972bffe2e",
+                    "path": "<HID::Thrustmaster T.16000M>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "29db3144-5632-47bf-b30e-fe3d5cef7d3c",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25510af6-6df6-4294-88ae-6f2b08e3f8a7",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bdaff03e-e475-4367-b4f4-b085698b0c72",
+                    "path": "<HID::Thrustmaster T.16000M>/hat/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LockTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c15cd853-c27a-4657-b614-ff449e2acbd4",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LockTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1354ccd6-0c2e-4d02-b6b9-36c9d8a26434",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button18",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LockTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e43e1c9-b9ff-4dce-a485-858a4512c5bc",
+                    "path": "<HID::Thrustmaster T.16000M>/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BreakLockTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f3b02c0-7a1e-4cee-9af5-fe605e4cfa99",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BreakLockTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "090445b0-0c65-4cfe-97bf-f64d9af33545",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button16",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BreakLockTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ThrustBreaks",
+            "id": "79fb86cf-8e19-4fce-bcd4-97b95b339498",
+            "actions": [
+                {
+                    "name": "Thrust",
+                    "type": "PassThrough",
+                    "id": "b348f782-6e6a-431c-93be-5e0350c4e3fe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Break",
+                    "type": "PassThrough",
+                    "id": "df4c9ae8-8f16-4ccf-9c76-8c8d282af3ea",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Flap",
+                    "type": "PassThrough",
+                    "id": "1424a1b1-a83f-4d1b-a31a-1b3616b13c56",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d13731f9-d281-43b3-b80a-626e58df5348",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thrust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8fb21bd4-44fb-42a6-95ad-0e55ac86471c",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thrust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "75b22fff-5ecd-40e3-a78f-1ada6c0538dd",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "013c56aa-f5ed-45a2-b643-6414c5a33943",
+                    "path": "<Keyboard>/q",
+                    "interactions": "Press(pressPoint=0.1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "FireMissile",
+            "id": "e46d6155-efdf-4f06-b46c-fdf9fe3c4c1d",
+            "actions": [
+                {
+                    "name": "Fire1",
+                    "type": "PassThrough",
+                    "id": "9a9c3e7d-e978-40d5-ae16-cc427e03d129",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire2",
+                    "type": "PassThrough",
+                    "id": "5479e242-18d7-4f52-a074-7aa10331776d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire3",
+                    "type": "Button",
+                    "id": "16a7bd05-01bd-483b-9ffc-df748125f9cc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire4",
+                    "type": "Button",
+                    "id": "3e53afce-7acc-4223-beeb-9abf0fed84c9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire5",
+                    "type": "Button",
+                    "id": "c4c68965-db55-4b9f-b2b5-ef3d4df01f7c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Weapon SelectUp",
+                    "type": "Value",
+                    "id": "3757e57e-d499-4fc3-834d-8d9c446497b6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Weapon SelectDown",
+                    "type": "Value",
+                    "id": "8c81a0d5-f6a8-4e76-a35a-99472b654fdb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e115bc9b-2d00-48d5-9597-b7723ff21f63",
+                    "path": "<HID::Thrustmaster T.16000M>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aadfb9d4-98eb-4036-a4eb-46a3df3c1cea",
+                    "path": "<Keyboard>/1",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f88f654-e16c-442f-8aac-da338cfd7e6f",
+                    "path": "<HID::Thrustmaster T.16000M>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fb3cfb1-8fd7-4467-8bdd-5258c3daef0e",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "43fd7cf0-fe44-42a3-820f-ab52bdf6840d",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b2a636bb-c640-4d6b-82a7-eb4a23b1c6a1",
+                    "path": "<Keyboard>/2",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19813990-55ce-4ffb-a6eb-a833dabae281",
+                    "path": "<HID::Thrustmaster, Inc. USB Game Controllers>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a1d82d4-f442-459e-adf4-9406c0e19d88",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5de0b5b7-257a-49cd-9223-f3cc3a04e58f",
+                    "path": "<HID::Thrustmaster T.16000M>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c462a47e-e949-47f5-bfff-82acbe520772",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9efbf25b-2c22-489d-bbde-6849563be3fe",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8dfe425a-6dc7-4741-a4ee-42dbeff7cad4",
+                    "path": "<HID::Thrustmaster T.16000M>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12c97cac-a164-4313-b296-6d7153ef87a2",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8f844290-c68c-4cc0-84d3-6b5ecaa84c53",
+                    "path": "<Keyboard>/g",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9efe0460-4b4f-4f7e-bdd8-5dbfc91c76d8",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button11",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Weapon SelectUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81125044-758c-42bc-bb18-bc135ce5b5ce",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Weapon SelectUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c9bc4d0-6819-498e-ae55-fb7a715cae29",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Weapon SelectDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd29131a-8a2e-4c85-b5ae-8e96ca8b41e1",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Weapon SelectDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Camera",
+            "id": "ab474ad4-1461-4407-a117-7c8d8923e24f",
+            "actions": [
+                {
+                    "name": "Switch",
+                    "type": "Button",
+                    "id": "9bec7447-e1b0-4af0-8fb8-9cd0a3b24802",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TopDown",
+                    "type": "Button",
+                    "id": "8ee753de-b41b-44a3-bf48-10ffeec5dcd3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CockpitView",
+                    "type": "Button",
+                    "id": "d132ee56-edce-4f70-b1b8-c0c86748254d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NoseDown",
+                    "type": "Value",
+                    "id": "e74d2efa-7762-4749-aec4-fe7723bed4ee",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "NoseDown1",
+                    "type": "Value",
+                    "id": "adae70e7-b35d-40a4-abdc-ef228686e9fd",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "NoseRight",
+                    "type": "Value",
+                    "id": "2901b62d-1f8e-4f1c-beed-e48b29a33100",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "NoseRight1",
+                    "type": "Value",
+                    "id": "38c5f46e-dce2-4a56-8e2f-693e49cf40be",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "909721b9-eaee-4e58-8b80-9e85c48c82a3",
+                    "path": "<Keyboard>/x",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc5af079-007f-47c7-8559-e9294272d915",
+                    "path": "<Keyboard>/z",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TopDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8fb3c712-2f27-4154-88b6-512216df1d48",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CockpitView",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfe22983-baf9-4cb7-8241-3394b74650bd",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CockpitView",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9181ab9-5974-45de-b312-c502ad4058b1",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/hat/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NoseDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59f0c682-d585-4262-bf8e-ee2a5c46b218",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/hat/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NoseRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4abbcf17-a039-4043-9c96-1c422fefa7c6",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NoseDown1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6420422f-6bbd-4511-b7a0-e10c1f104d7b",
+                    "path": "<Gamepad>/rightStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NoseDown1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f4a7f7c-c595-4434-af4f-2df96faed9af",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NoseRight1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f3497950-f630-4bd3-a411-b67aea3f5bfa",
+                    "path": "<Gamepad>/rightStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NoseRight1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CounterMeasure",
+            "id": "bb38b820-141d-44ca-8877-f6489e3cf920",
+            "actions": [
+                {
+                    "name": "Flare",
+                    "type": "PassThrough",
+                    "id": "ba86da79-4b83-4c13-96a6-511c7fd554df",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Chaff",
+                    "type": "Button",
+                    "id": "86e6afb6-acb0-421d-b038-c5e73771b4db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9f5a2544-28ca-40ed-9dbc-b69338c2c817",
+                    "path": "<Keyboard>/f",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flare",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5474a512-317c-44dc-a47e-38fbf4b74bc2",
+                    "path": "<HID::Thrustmaster T.16000M>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flare",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b8b108bf-169a-47c5-b8c2-38a56c84cfee",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Chaff",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ad37134-4f50-4616-8293-9d769873cc1d",
+                    "path": "<HID::Thrustmaster T.16000M>/button9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Chaff",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vid",
+            "id": "ef29a20e-871e-48d7-ac3c-55b997dffd02",
+            "actions": [
+                {
+                    "name": "record",
+                    "type": "Button",
+                    "id": "42a09dc1-38ad-4079-86ee-154d683d3ed5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StopRecord",
+                    "type": "Button",
+                    "id": "b0b87087-0db2-46e7-8d2c-0daf8eba76f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "23bca0b0-db99-4f3c-b7a6-547fc5c48fd9",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "record",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f34f3190-86e9-4f48-ab51-0056f369a8ad",
+                    "path": "<Keyboard>/f2",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopRecord",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "JoystickInput",
+            "id": "10d63315-c26b-48e9-8c19-d8aa843d2a09",
+            "actions": [
+                {
+                    "name": "RL",
+                    "type": "Value",
+                    "id": "a04c850b-5265-47d7-9faa-d70d040fd171",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "UD",
+                    "type": "Value",
+                    "id": "b29ed667-d97d-42a0-a785-bad5e4df4621",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "S",
+                    "type": "Value",
+                    "id": "e45d0b29-e874-4836-a7b2-de6d260c5b37",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Flares",
+                    "type": "Button",
+                    "id": "2d907b45-4888-44d1-9a65-17ace99f5c09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "91c4c837-daec-4bf9-ae33-bf90c919902a",
+                    "path": "<Joystick>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d182aa69-af72-4cbe-ae82-daa5743c30a3",
+                    "path": "<Joystick>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f831d15-51a9-4d86-b236-e5c8cb06da38",
+                    "path": "<Joystick>/Z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "S",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e88e2fd-5dcc-45ac-a0a2-494456ee69a4",
+                    "path": "<HID::Thrustmaster, Inc. USB Game Controllers>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flares",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "KeyboardControles",
+            "id": "fc19088a-8d4c-4d35-86db-90a4ad7dae71",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "d8d6d95e-1621-487a-b27b-14101dd531a8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "b0b4c30a-2930-4697-b1f2-8db90951f822",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "7eb5edbc-ba14-444b-91b4-e7eb3e51fb9a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "5376a2b8-cccc-4d81-8616-554c72af1d63",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Thrust",
+                    "type": "Button",
+                    "id": "e43d442c-efc1-4e4d-aec8-911bd361db22",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8943dc0e-1f54-4959-ab5d-2b9c15738c13",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e08f387-25ff-434e-b2e5-a2beee007868",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "938a4165-e0e3-41b9-8841-cbceb3acb265",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36cea41d-3e18-4303-9540-2a003e6f3e80",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "db11e23e-43d3-4371-af6d-0c417131b0fe",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thrust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CockpitDisplay",
+            "id": "900a6e7d-ace5-4f13-a664-cf93ff076010",
+            "actions": [
+                {
+                    "name": "Cockpit",
+                    "type": "Button",
+                    "id": "3a1ade2b-e617-4c4b-80e9-6c5c82fb5721",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SwitchDisplay",
+                    "type": "Button",
+                    "id": "dc368202-09e2-4015-b942-16a278befb76",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aaf011dd-3c4c-45d7-95c5-117cf71cb007",
+                    "path": "<Keyboard>/c",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cockpit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9dd3efd-cc9b-4db8-9351-0983fdfbf0b4",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cockpit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6cc9ca05-d00b-4229-8ab1-f0572e6d006f",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchDisplay",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2fb33142-ea6d-4bce-bf7d-89d33e1f677a",
+                    "path": "<HID::Thrustmaster Throttle - HOTAS Warthog>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchDisplay",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Radar",
+            "id": "b5540fcc-86a8-49ea-a22e-f158516fa67b",
+            "actions": [
+                {
+                    "name": "ACM MODE UP",
+                    "type": "Button",
+                    "id": "232bd4f3-c3a2-4db9-a4df-464a351eb949",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ACM MODE DOWN",
+                    "type": "Button",
+                    "id": "eca08269-53d1-4e80-b2d0-ddfdb0e2b039",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ACM MODEON",
+                    "type": "Button",
+                    "id": "12e2940b-5c5d-4c39-9dfa-1115e633a317",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ACM MODEOFF",
+                    "type": "Button",
+                    "id": "a6d4c5d3-0779-4a91-8844-116d6f2f3e94",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RadarON",
+                    "type": "Button",
+                    "id": "5c171dc4-8571-47ba-bf7e-7ffd68ae4e75",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RadarOFF",
+                    "type": "Button",
+                    "id": "6b9e5717-b1b6-4959-8d71-5875c509a284",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AAST",
+                    "type": "Button",
+                    "id": "486298c8-34e8-40a0-99b5-5263b4a797e4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NAST",
+                    "type": "Button",
+                    "id": "208bb759-b5d6-4e11-a8b3-61b2c08755fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RangeInc",
+                    "type": "Button",
+                    "id": "401c9cd6-a387-491d-944e-69a7a213d611",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RangeDec",
+                    "type": "Button",
+                    "id": "be739e5e-6dba-4c64-bd75-da8153e9f401",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ChaffsFlareDispence",
+                    "type": "Button",
+                    "id": "7c381d37-1eaf-46d5-a1fa-e96ff257a56b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DIRCM",
+                    "type": "Button",
+                    "id": "d6bc7473-f361-4131-ad7f-86316158cf10",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WeaponSelection",
+                    "type": "Button",
+                    "id": "c91d82af-1d1b-4b7f-bf4d-912778d9ae00",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SlewUP",
+                    "type": "Button",
+                    "id": "4cd4a841-96ae-4092-817b-a5e5eea84647",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SlewDOWN",
+                    "type": "Button",
+                    "id": "d19d313c-0c6c-4bc5-a3d1-2f385d1a668a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SlewLEFT",
+                    "type": "Button",
+                    "id": "698996da-5156-4f63-af14-88a53ea2d921",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SlewRIGHT",
+                    "type": "Button",
+                    "id": "90d38763-2a74-4a24-8abb-6827e3e09953",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SlewCenter",
+                    "type": "Button",
+                    "id": "76ba2061-1d02-4436-a74b-4556e5aa5c2f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fbc989e3-4182-41c8-bf02-f10af02e28e6",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODE UP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "665feb18-36a0-4651-8889-f775c1f161a7",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODE UP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ab07c47e-0b17-4f34-a7ce-3eca9ef17738",
+                    "path": "<HID::Thrustmaster T.16000M>/hat/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODE UP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3536ac1a-03fb-49ee-a967-6e3e2c4d32de",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODE DOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81964e78-2a77-491f-85d0-d1b3ee49fd51",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button10",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODE DOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0f0f808-4063-43f4-9820-3c6ceb10a642",
+                    "path": "<HID::Thrustmaster T.16000M>/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODE DOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dbc526a1-77e3-42fd-be45-39a718d62bf5",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODEON",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "380394b3-fa02-4d8c-bade-5ebdee85b8a0",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODEON",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9141edf7-729a-42e9-b925-7f6be420a9d1",
+                    "path": "<HID::Thrustmaster T.16000M>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODEON",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "193589f7-640a-49b3-8f94-fb5b0e631ec3",
+                    "path": "<Keyboard>/numpad8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewUP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a8a90ae6-945e-45e4-824b-29f1a86523fa",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button11",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewUP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "29b15494-c54d-4f4e-a872-0b0487bb3d17",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewDOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b754befe-97d1-4009-b089-4a3b19686b71",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button13",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewDOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f615875f-15c8-4a8d-a8f3-cd10ae74a3e1",
+                    "path": "<Keyboard>/numpad4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewLEFT",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7bf4e5fd-6eb4-4afd-a80c-916ae1f3ca23",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button14",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewLEFT",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e5f46e8-a3a8-43ed-9fe3-5d50649f8043",
+                    "path": "<Keyboard>/numpad6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewRIGHT",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b1ba99f-b807-45d2-a511-53c953c6f6e4",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewRIGHT",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91811a8b-e4d2-4c30-93be-d34ae6708b97",
+                    "path": "<Keyboard>/numpad5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SlewCenter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7fc0b3d8-9406-4bfc-ad40-5f703d681753",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODEOFF",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1390f096-f585-41e1-a8ff-26f616f42f73",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODEOFF",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13478b71-25d5-4236-86df-2971347818ca",
+                    "path": "<HID::Thrustmaster T.16000M>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ACM MODEOFF",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "741639ae-8b78-426e-9bc8-b5093043c232",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button17",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RangeDec",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02455a95-f1e8-43d1-a5f0-4efe717b9edf",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button15",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RangeInc",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2d33118-d265-4327-883d-304e66f5cf2f",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button13",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RadarOFF",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6712e534-6f21-4996-8789-6df7bcb43641",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button11",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RadarON",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "61d1c2a5-adda-4c71-b005-dcc0e88548e6",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NAST",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e9fd94e-d5a7-4b22-8a65-2242c75114c0",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button14",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AAST",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1a67efd-8d55-4211-932a-7f2137a617ad",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChaffsFlareDispence",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6ca49fd-49b6-4d7e-a6e3-e8ab509d96de",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DIRCM",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1b187ef-97b2-46de-8e2d-8ed15b970749",
+                    "path": "<HID::Thustmaster Joystick - HOTAS Warthog>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WeaponSelection",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Feedback",
+            "id": "2cbbec7b-6e46-40cc-8426-7ac387c14174",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "b2207e5c-67c8-4f5d-a0a0-52de60ec0e90",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BirdEye",
+                    "type": "Button",
+                    "id": "14a76684-56dc-4dfe-a9d1-9e72769f1d43",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "camForward",
+                    "type": "Button",
+                    "id": "5079ee1f-9ed7-4bbf-8b59-7cac59d32f55",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "cambackward",
+                    "type": "Button",
+                    "id": "8b69473d-2d54-430f-95f4-5e7386378234",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "camright",
+                    "type": "Button",
+                    "id": "bcb9422e-c634-45ee-91d6-eeea6eac63e0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "camleft",
+                    "type": "Button",
+                    "id": "2c86409e-f28e-4310-894e-4230c47e076e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "camup",
+                    "type": "Button",
+                    "id": "ad62ac30-091f-46f5-931a-bea7e9c9599f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "camdown",
+                    "type": "Button",
+                    "id": "2ace11d6-0d42-45b6-9160-ea922244fbaa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SpeedUp",
+                    "type": "Button",
+                    "id": "7684db73-91e5-4a63-96d1-6a49d8f3676b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "mouseX",
+                    "type": "PassThrough",
+                    "id": "4bb9425c-e9fd-475b-baed-91f94891d95c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "mouseY",
+                    "type": "PassThrough",
+                    "id": "0e8fd005-1d9f-448b-864a-b946235b7a45",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "zoom",
+                    "type": "PassThrough",
+                    "id": "05493891-4d6a-47d4-869d-2a5e1ff12008",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "mouseLock",
+                    "type": "Button",
+                    "id": "2fd427e8-8781-4e6d-8201-b9a67e037301",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ViewNext",
+                    "type": "Button",
+                    "id": "89312138-f989-4880-b9be-ad11a5129b53",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ViewPrev",
+                    "type": "Button",
+                    "id": "4be486b7-c7fd-4835-a6cd-8cc6c5274b50",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f2656c38-af1e-459a-95f8-564c896af254",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3e23004-ad2e-4414-b621-6403ebf8ce85",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BirdEye",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d4b3836-6c1e-4eae-b5ff-1db5a5f2a04e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "40c1c8bd-0dd1-4ba3-a3aa-4f6db97cbad1",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b046d286-c749-41c5-aeeb-b4bef9012774",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "cambackward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3892e56a-8bcc-4c3c-9add-5b5d3bb56008",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "cambackward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f66924e6-16d4-4c08-a387-9dc7d0ae3e03",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camright",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8edc2131-a14f-402d-8696-e365a5157bb8",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camright",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "28b9fea2-e268-4458-8698-fc366fb4a804",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camleft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22af09de-3b41-4557-8547-a238131b90f9",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camleft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f02ea82-891b-4be2-8364-9aebd94996dc",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camup",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11a82391-91d8-44de-b32a-957701172414",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "camdown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cacda8ad-d2c9-431f-b1e1-d785ce2a8fe0",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "mouseX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ee64955-0635-4376-b3e5-ef2baa46780b",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "mouseY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "502f054d-047d-4803-b7b4-6e9a8446e058",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "mouseLock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee0fcfd9-bf6d-46d6-9c58-3ba4dcbab33f",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpeedUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "45213852-0a9f-4f23-98a2-cf57605074cc",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f0667757-beb9-4ef5-b4da-750ac371ce8b",
+                    "path": "<Keyboard>/period",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ViewNext",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a44008de-8c8e-4170-8c11-e4610c340076",
+                    "path": "<Keyboard>/comma",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ViewPrev",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
