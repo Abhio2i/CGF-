@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Brain
+  - Ground
+  - Missile
+  - Goal
+  - Wall
+  - goodMissile
+  - EnemyTank
+  - EnemyMissile
+  - EnemyPlane
+  - MAWS
+  - PlayerBody
+  - AllyMissile
+  - Flares
+  - waypoints
+  - Ally
+  - AI
+  - Enemy
+  - AvoidAlly
+  - Bullet
+  - Weather
+  - FxTemporaire
+  - PlayerMissile
+  - chaff
+  - EnemyShip
+  - EnemyRadar
+  - EnemyBase
+  - explosion
+  - Bomb
+  - flare
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Entity
+  - Water
+  - UI
+  - Ground
+  - Canvas
+  - nopost
+  - Radar
+  - gyro
+  - extra
+  - Flame
+  - Effects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
