@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f97b733e85be8e24eae8460a1b27fd9f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+Debug.Log(" hello world ");
+  assetBundleVariant: 

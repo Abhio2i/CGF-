@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: 5acdba7cb9b2cd448be85da2418a1863
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "1920px-Naval_Ensign_of_Great_Britain_(1707\u20131800).svg.001"
+    second: {fileID: 2100000, guid: a805fbed135794a498482e1a7cfe3305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 80503
+    second: {fileID: 2100000, guid: a46ebcd40d230b0409b8d081912aa21d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Colour.001
+    second: {fileID: 2100000, guid: f6e9eab1a5aeb3240af4cbeb174e7941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Colour.002
+    second: {fileID: 2100000, guid: 083f9d682ac22ae42a69ce0561be7a69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Yellow_Squares_Flag
+    second: {fileID: 2100000, guid: 05fc0dbc7db6a7f4cb941c432a9a1fbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_Cross_On_White_Flag
+    second: {fileID: 2100000, guid: 975e06c429f8ece4693581c485e917aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge
+    second: {fileID: 2100000, guid: 134fd152c48e6914a86bc265bc990451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Deck_Floor
+    second: {fileID: 2100000, guid: f4f1f90fce4010e458b6bb68a88168cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Deck_Outer
+    second: {fileID: 2100000, guid: 40e28056d1225944b98888517506135b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Glass
+    second: {fileID: 2100000, guid: a6fbbd6d1f115154ea6638ba82d8b80e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge_Roof
+    second: {fileID: 2100000, guid: 56f18d95049ab7c40ac1504ff2c223b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Checker_Backplate_Colour
+    second: {fileID: 2100000, guid: 55775e9857902ff4b8262c11c5b9aa4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Daring_Crest
+    second: {fileID: 2100000, guid: bcd16c7263a3fb941a6adc19c297db58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey_Dirty
+    second: {fileID: 2100000, guid: 92dc21c1c3f45a14b9297ea72a8dc9f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey_Mid_Deck.001
+    second: {fileID: 2100000, guid: 7f022b60d5921674791ed6eecd8ceada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_Grey_Mid_Deck.002
+    second: {fileID: 2100000, guid: 693c455233d521846885ccf5c81432f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Depth_Marker
+    second: {fileID: 2100000, guid: bd8482d697c1fd64591b28dbaa98d904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Rope
+    second: {fileID: 2100000, guid: 3a756eec42fc3214aaff8bb0a05d4e7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Inner
+    second: {fileID: 2100000, guid: 52233f69a7e4ae04d80e2ffe3c221fed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Inner.001
+    second: {fileID: 2100000, guid: be50bca81942a90449b3e39a82a2fc91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Inner.002_Light_Corrosion
+    second: {fileID: 2100000, guid: 49dfc56ece58c014884e4a7deb2127de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Inner_Dark
+    second: {fileID: 2100000, guid: 89948cdc322f0da42b22a647db0333c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Inner_Dirty
+    second: {fileID: 2100000, guid: f6a05d18c34e2f04f90b6095f849568f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Outer
+    second: {fileID: 2100000, guid: 4c172060c41232146bd1ea0ffcd2dd52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Outer.001
+    second: {fileID: 2100000, guid: 420e1fc53da677c4a9273a7128668fcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Outer.002_Light_Corrosion
+    second: {fileID: 2100000, guid: aed9ef31b5e09da48b265c37dd966329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Outer_Dirty
+    second: {fileID: 2100000, guid: 2c98b3b48ce6e1f44a1b45e21f93e9ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Outer_Dirty_01
+    second: {fileID: 2100000, guid: b1bd7b52b085ab34bbd6d3e570b09722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_Outer_Dirty_02
+    second: {fileID: 2100000, guid: 7ca1cf89639ee544e9ebd3c7495cd708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Barrel_Black
+    second: {fileID: 2100000, guid: b8da90128351e104db640600a02c20cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Dark_Grey
+    second: {fileID: 2100000, guid: f0e1cb25af2357c4cb06fb09cdead429, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Light_Grey
+    second: {fileID: 2100000, guid: 9206e174965d6af42be53acc7ab74d28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Ring_Black
+    second: {fileID: 2100000, guid: 8533bfe1a95a9b548acdf2143eff87d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Ring_Yellow
+    second: {fileID: 2100000, guid: fd12c4a608fce824cb45cd2ea1b37a9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Scope_Glass
+    second: {fileID: 2100000, guid: b54bec2a2d15d814d9a5b02a2935a3f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_White
+    second: {fileID: 2100000, guid: a0522f15fccaf8e47b37ed7185aed71a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HMS_DARING
+    second: {fileID: 2100000, guid: 0152407e43fad4247b6b598413ce3e2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hull_Bottom_Red
+    second: {fileID: 2100000, guid: bab4d7bd61b745645bf906615e2d343e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hull_Deck
+    second: {fileID: 2100000, guid: 25366549dd0b2d040bf355e7965b8ec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hull_Main_Colour
+    second: {fileID: 2100000, guid: 653222fef5a94704b84196248a63229b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hull_Middle_Grey
+    second: {fileID: 2100000, guid: 48a58ff0e5a91db41ad15f15367a0b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Launcher_Bay_Inner
+    second: {fileID: 2100000, guid: fc89ccce8f0cb2c4ca366937fec148b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Launcher_Bay_Outer
+    second: {fileID: 2100000, guid: 699bcbb265f3c4446af9c8528159683e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Launcher_End_Structure
+    second: {fileID: 2100000, guid: fc84ba7219119374b93182aa39633dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainGun_Ladder_Warning
+    second: {fileID: 2100000, guid: 28354f18d07a0a34f972498458bde00a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main_Vessel_Colour.001
+    second: {fileID: 2100000, guid: 2dfe96870ceed024fb794f45eb63f589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main_Vessel_Colour.002
+    second: {fileID: 2100000, guid: a01079838fac5304f8abdce02b503632, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 0f258e6e27131cf48b5c898920b1e750, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Missile_Launcher
+    second: {fileID: 2100000, guid: a97006c82dbc25b4b8adcdae9a247af8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nera
+    second: {fileID: 2100000, guid: fd585bc8a1e36784e9482d482ed7af4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_Loading_Door_Colour
+    second: {fileID: 2100000, guid: 6dc76c779f9c4cf449c8abd73ec50a73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_White_Divided_Flag
+    second: {fileID: 2100000, guid: 77a5c284dd9ef0e4aaa7bb723e69d67b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_White_Squares_Flag
+    second: {fileID: 2100000, guid: de1c55db2555bf24caf350fbf4272caf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_White_Stripes_Flag
+    second: {fileID: 2100000, guid: 806e67ce5eb77ad4cae56f1f55156eae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Yellow_Diag_Flag
+    second: {fileID: 2100000, guid: 5bee7b07f05537c428b37fe4b21ef480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_Barrel_01
+    second: {fileID: 2100000, guid: 7f2784a507df6754c9c38c3fe6fcb1fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_Barrel_02
+    second: {fileID: 2100000, guid: df08345182fb9b8479cc05eb37926c8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_Black_Corroded_01
+    second: {fileID: 2100000, guid: 3bd1ede53bba1d34792ecd82985f6130, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_Black_Corroded_02
+    second: {fileID: 2100000, guid: ee7a1c77370bc1749b678b517cc7ec75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_Black_Corroded_Dirty
+    second: {fileID: 2100000, guid: f068da0552b72064c95fad0428f49c70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_Pale_Blue
+    second: {fileID: 2100000, guid: 337ccd8a2e4255747826cfd2fb28ee81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_Pale_Blue_Main_Dome.001
+    second: {fileID: 2100000, guid: 2cee431e843eab74fb66e676b6b212a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_White_Corroded_01
+    second: {fileID: 2100000, guid: dc12ecc489098a842b75622ec2539cf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_White_Corroded_02
+    second: {fileID: 2100000, guid: 4ef2d17310be5144c8b4adb357c188de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_White_Corroded_Dirty_02
+    second: {fileID: 2100000, guid: edcbfb47064c3f94ebe6752b7698859f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_White_Corroded__Dirty
+    second: {fileID: 2100000, guid: 733ab4be0bb80e443b898fc93aedcd6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Part_White_Corroded__Dirty_01
+    second: {fileID: 2100000, guid: 8eb55b68ab0bd1b42a7dfa18107271a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Black
+    second: {fileID: 2100000, guid: 3ff5477d3bc62704e908f0e159d2eed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Brass
+    second: {fileID: 2100000, guid: 3bf05051552d393459c3a20b06f6e317, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Brass_Dirty
+    second: {fileID: 2100000, guid: 5998657807276d448a577f8b3531a2d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Pure_Black
+    second: {fileID: 2100000, guid: 3b056f25674d2f4438bf79bbad34dfe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Red
+    second: {fileID: 2100000, guid: 3a2bff76c634fdd4298435e01e6b529b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Red_Corroded
+    second: {fileID: 2100000, guid: bcc2b7ca16aee22459039b1ef0e64e8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Red_Glass
+    second: {fileID: 2100000, guid: 05cd0b1912d84ad4cb6e04d48e52b965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Red_Glass_Emission
+    second: {fileID: 2100000, guid: 59e26f009e841494b9db4897927c8fbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Red_Lifering
+    second: {fileID: 2100000, guid: d000cd4dfb7c9b44499080e18c516a73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Rusty_Red
+    second: {fileID: 2100000, guid: 73b721ff76b0a7a44a147c191c188db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Rusty_Steel_01
+    second: {fileID: 2100000, guid: e5cbd1b955123224596fa0d73d67ee04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Rusty_Steel_02
+    second: {fileID: 2100000, guid: b7d44570cfd4ccd4e96d7976a7eb172d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Under_Hull
+    second: {fileID: 2100000, guid: 39e302805f766dd438a4331a27c18723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Under_Hull_Rudders
+    second: {fileID: 2100000, guid: 3ffa2d228e982194686e023164b6c107, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_White_Glass_Emission
+    second: {fileID: 2100000, guid: 5f9f8f4c0aba7bb4ea30eba06fb011d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_Parts_Yellow_Corroded
+    second: {fileID: 2100000, guid: 1097db0b35ac170458853b52ef922f8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_part_Wood
+    second: {fileID: 2100000, guid: c3996f5756618854daafbf48c4c44fcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_parts_Green_Glass
+    second: {fileID: 2100000, guid: 593675e2be814764ebc12e11a0a8453f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ship_parts_White_Lifering
+    second: {fileID: 2100000, guid: 19f594ecc21158440aea9ed3d2d21c44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_Panel
+    second: {fileID: 2100000, guid: 413817d70e300574ba3f123e42caa91e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_Panel_Panels
+    second: {fileID: 2100000, guid: 991f343692ef10a4c8ba0d9883439e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_Panel_Recess
+    second: {fileID: 2100000, guid: 02e7116bfdd1f2c47bfec9435421ff1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Untitled-Phalanx_weapon
+    second: {fileID: 2100000, guid: 647edf13f6d715049aa97d506b20be0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Warning_Main_Gun
+    second: {fileID: 2100000, guid: 4aed64dc087583e4081e2e10a605cd9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Blue_Band_Flag
+    second: {fileID: 2100000, guid: eb3b19a20855ff74686edacff761ff75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Blue_Vertical_Flag
+    second: {fileID: 2100000, guid: 1298d1fa3bdb76147a7b35dd07987b01, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
